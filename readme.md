@@ -11,6 +11,7 @@
   </p>
 </div>
 
+<h1> IF YOU WANT IT TO WORK AFTER CLONING THE REPO CHANGE THE FOLDER NAME TO <code>lestige</code>!</h1>
 
 ## Important
 > Lestige is still in development so it's only able to do some things. <br>
