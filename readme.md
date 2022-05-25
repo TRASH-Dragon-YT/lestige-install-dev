@@ -37,10 +37,31 @@ Lestige is a powerful [Node.js](https://nodejs.org) module that allows you to ea
 
 ## Example usage
 
-
+## Javascript
 ```js
 const {Client, Intents} = require('./lestige/index.js')
 const client = new Client({intents: [Intents.Flags.GUILDS, Intents.Flags.GUILD_MESSAGES, Intents.Flags.GUILD_MESSAGE_REACTIONS]})
+
+client.on('ready', () => {
+  console.log(`${client.me.tag} is ready.`)
+})
+
+client.on('message', message => {
+    if(message.author.bot) return;
+
+    if(message.content == '!help'){
+      message.channel.say('I am here to help :D')
+    }
+})
+
+client.login('Your secret token.')
+//If you use replit.com, instead of doing 'token', do process.env.token.
+```
+
+## Typescript
+```ts
+Import * as Lestige from "./lestige/index.js"
+const client = new Client({intents: [Lestige.Intents.Flags.GUILDS, Lestige.Intents.Flags.GUILD_MESSAGES, Lestige.Intents.Flags.GUILD_MESSAGE_REACTIONS]})
 
 client.on('ready', () => {
   console.log(`${client.me.tag} is ready.`)
