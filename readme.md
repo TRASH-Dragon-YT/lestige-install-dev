@@ -18,7 +18,10 @@
 
 ## Update
 
-
+# You can now install this version by using git (Or just downloading the code)
+```shell
+git clone https://github.com/TRASH-Dragon-YT/lestige-install-dev
+```
 
 ## About
 
