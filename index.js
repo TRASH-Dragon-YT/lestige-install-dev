@@ -1,11 +1,11 @@
-const  Client  = require("./modules/Client/index")
-const Intents = require("./modules/Constants/intents")
-const DiscordEmbed = require('./modules/lient/stuff/embed')
-const DiscordButton = require('./modules/Client/stuff/button')
-const SlashCommands = require('./modules/Client/stuff/slashcmds')
-const DiscordMenu = require('./modules/Client/stuff/menu')
-const CommandHandler = require('./modules/Client/stuff/CommandHandler')
-const ActivityTypes = require('./modules/Client/stuff/activitytypes.js')
+const  Client  = require("./module/Client/index")
+const Intents = require("./module/Constants/intents")
+const DiscordEmbed = require('./module/lient/stuff/embed')
+const DiscordButton = require('./module/Client/stuff/button')
+const SlashCommands = require('./module/Client/stuff/slashcmds')
+const DiscordMenu = require('./module/Client/stuff/menu')
+const CommandHandler = require('./module/Client/stuff/CommandHandler')
+const ActivityTypes = require('./module/Client/stuff/activitytypes.js')
 
 module.exports = {
     Client,
