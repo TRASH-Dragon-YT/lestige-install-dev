@@ -61,7 +61,7 @@ client.login('Your secret token.')
 ## Typescript
 ```ts
 import * as Lestige from "./lestige/index.js"
-const client = new Client({intents: [Lestige.Intents.Flags.GUILDS, Lestige.Intents.Flags.GUILD_MESSAGES, Lestige.Intents.Flags.GUILD_MESSAGE_REACTIONS]})
+const client = new Lestige.Client({intents: [Lestige.Intents.Flags.GUILDS, Lestige.Intents.Flags.GUILD_MESSAGES, Lestige.Intents.Flags.GUILD_MESSAGE_REACTIONS]})
 
 client.on('ready', () => {
   console.log(`${client.me.tag} is ready.`)
