@@ -39,7 +39,7 @@ Lestige is a powerful [Node.js](https://nodejs.org) module that allows you to ea
 
 
 ```js
-const {Client, Intents} = require('lestige')
+const {Client, Intents} = require('./lestige/index.js')
 const client = new Client({intents: [Intents.Flags.GUILDS, Intents.Flags.GUILD_MESSAGES, Intents.Flags.GUILD_MESSAGE_REACTIONS]})
 
 client.on('ready', () => {
