@@ -60,7 +60,7 @@ client.login('Your secret token.')
 
 ## Typescript
 ```ts
-Import * as Lestige from "./lestige/index.js"
+import * as Lestige from "./lestige/index.js"
 const client = new Client({intents: [Lestige.Intents.Flags.GUILDS, Lestige.Intents.Flags.GUILD_MESSAGES, Lestige.Intents.Flags.GUILD_MESSAGE_REACTIONS]})
 
 client.on('ready', () => {
